@@ -31,13 +31,45 @@ This project will be deployed on the Azure platform.
 
 ## User Stories
 
-__As a__ X
+*1.*
+  __As a__ person who has debt
 
-__I want__ Y
+  __I want__ to payoff my debt
 
-__So that__ Z
+  __So that__ I can become debt-free
+  
+*2.*
+  __As a__ parent
+
+  __I want__ get control of my finances
+
+  __So that__ I can teach my children how to deal with their finances
 
 ## Use Cases
+
+__Given__ I am registered 
+__When__ I enter the correct credentials
+__Then__ I should be authenticated
+
+__Given__ I am not signed up
+__When__ I register with my credentials
+__Then__ I should have the ability to authenticate
+
+__Given__ I have a $1,000 debt
+__When__ I make a payment for $500 
+__Then__ I should now have a $500 debt
+
+__Given__ I have a $1,000 debt
+__When__ .025% interest accrues
+__Then__ I should now have a $1,025 debt
+
+__Given__ I am trying to log in to the website 
+__When__ I enter incorrect credentials
+__Then__ I should not be authenticated
+
+__Given__ I have a $1,000 debt
+__When__ I make a payment for $1,050 on the debt 
+__Then__ I should have a $0 debt
 
 ## UML Diagram
 
