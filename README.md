@@ -73,6 +73,8 @@ __Then__ I should have a $0 debt
 
 ## UML Diagram
 
+![Image of Yaktocat UML Diagram](https://github.com/HedgeHodge/DebtFreeApplication/blob/master/UMLDiagram.png)
+
 ## Requirements
 
 | no. | Description |
