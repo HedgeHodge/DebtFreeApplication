@@ -73,12 +73,41 @@ __Then__ I should have a $0 debt
 
 ## UML Diagram
 
-![Image of Yaktocat UML Diagram](https://github.com/HedgeHodge/DebtFreeApplication/blob/master/UMLDiagram.png)
+![Image of UML Diagram](https://github.com/HedgeHodge/DebtFreeApplication/blob/master/UMLDiagram.png)
 
 ## Requirements
 
 | no. | Description |
 |-----|-------------|
+|  1  | the system shall restrict access to authenticated users|
+| 1.1 | the system shall present a login screen to the user|
+| 1.1.1 | the login window shall present a red error if the user enters an incorrect login|
+| 1.2 | the system shall present a register screen to the user|
+| 1.2.1 | the login window shall present a red error if the user enters an invalid email or password|
+|  2  | the system shall restrict access to authenticated users|
+| 2.1 | the system shall present a login screen to the user|
+| 2.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  3  | the system shall restrict access to authenticated users|
+| 3.1 | the system shall present a login screen to the user|
+| 3.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  4  | the system shall restrict access to authenticated users|
+| 4.1 | the system shall present a login screen to the user|
+| 4.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  5  | the system shall restrict access to authenticated users|
+| 5.1 | the system shall present a login screen to the user|
+| 5.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  6  | the system shall restrict access to authenticated users|
+| 6.1 | the system shall present a login screen to the user|
+| 6.1.1 | the login window shall present a red error if the user enters an incorrect login| 
 |  7  | the system shall restrict access to authenticated users|
-| 7.2 | the system shall present a login screen to the user|
-| 7.2.1 | the login window shall present a red error if the user enters an incorrect login| 
+| 7.1 | the system shall present a login screen to the user|
+| 7.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  8  | the system shall restrict access to authenticated users|
+| 8.1 | the system shall present a login screen to the user|
+| 8.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  9  | the system shall restrict access to authenticated users|
+| 9.1 | the system shall present a login screen to the user|
+| 9.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+|  10  | the system shall restrict access to authenticated users|
+| 10.1 | the system shall present a login screen to the user|
+| 10.1.1 | the login window shall present a red error if the user enters an incorrect login| 
