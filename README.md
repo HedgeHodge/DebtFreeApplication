@@ -80,34 +80,20 @@ __Then__ I should have a $0 debt
 | no. | Description |
 |-----|-------------|
 |  1  | the system shall restrict access to authenticated users|
-| 1.1 | the system shall present a login screen to the user|
+| 1.1 | the application shall present a login screen to the user|
 | 1.1.1 | the login window shall present a red error if the user enters an incorrect login|
+| 1.1.2 | the application shall direct user to the next page if login is successful|
 | 1.2 | the system shall present a register screen to the user|
-| 1.2.1 | the login window shall present a red error if the user enters an invalid email or password|
-|  2  | the system shall restrict access to authenticated users|
-| 2.1 | the system shall present a login screen to the user|
-| 2.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  3  | the system shall restrict access to authenticated users|
-| 3.1 | the system shall present a login screen to the user|
-| 3.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  4  | the system shall restrict access to authenticated users|
-| 4.1 | the system shall present a login screen to the user|
-| 4.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  5  | the system shall restrict access to authenticated users|
-| 5.1 | the system shall present a login screen to the user|
-| 5.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  6  | the system shall restrict access to authenticated users|
-| 6.1 | the system shall present a login screen to the user|
-| 6.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  7  | the system shall restrict access to authenticated users|
-| 7.1 | the system shall present a login screen to the user|
-| 7.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  8  | the system shall restrict access to authenticated users|
-| 8.1 | the system shall present a login screen to the user|
-| 8.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  9  | the system shall restrict access to authenticated users|
-| 9.1 | the system shall present a login screen to the user|
-| 9.1.1 | the login window shall present a red error if the user enters an incorrect login| 
-|  10  | the system shall restrict access to authenticated users|
-| 10.1 | the system shall present a login screen to the user|
-| 10.1.1 | the login window shall present a red error if the user enters an incorrect login| 
+| 1.2.1 | the register window shall present a red error if the user enters an invalid email or password|
+| 1.2.2 | the register window shall direct user to the next page if registration is successful|
+|  2  | the user shall be able to add debts|
+| 2.1 | the application shall present an add debt screen after initial registration|
+| 2.1.1 |the system shall present an input area for inital debt entry| 
+| 2.2.1 |the system shall reject non-numerical inputs for debt totals| 
+|  3  |the user shall be able to add payments to debts|
+| 3.1 |the application shall have a button to enable addition of payments|
+| 3.1.1 |the application shall present a popup to input amount of payment| 
+| 3.2.1 |the application shall reject non-numerical inputs for payments| 
+|  4  |the user shall be able to adjust debt total based on accrued interest|
+| 4.1 |the application shall present a button to add interest charges|
+| 4.1.1 |the application shall reject non-numerical inputs for interest charges| 
