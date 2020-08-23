@@ -77,23 +77,23 @@ __Then__ I should have a $0 debt
 
 ## Requirements
 
-| no. | Description |
-|-----|-------------|
-|  1  | the system shall restrict access to authenticated users|
-| 1.1 | the application shall present a login screen to the user|
-| 1.1.1 | the login window shall present a red error if the user enters an incorrect login|
-| 1.1.2 | the application shall direct user to the next page if login is successful|
-| 1.2 | the system shall present a register screen to the user|
-| 1.2.1 | the register window shall present a red error if the user enters an invalid email or password|
-| 1.2.2 | the register window shall direct user to the next page if registration is successful|
-|  2  | the user shall be able to add debts|
-| 2.1 | the application shall present an add debt screen after initial registration|
-| 2.1.1 |the system shall present an input area for inital debt entry| 
-| 2.2.1 |the system shall reject non-numerical inputs for debt totals| 
-|  3  |the user shall be able to add payments to debts|
-| 3.1 |the application shall have a button to enable addition of payments|
-| 3.1.1 |the application shall present a popup to input amount of payment| 
-| 3.2.1 |the application shall reject non-numerical inputs for payments| 
-|  4  |the user shall be able to adjust debt total based on accrued interest|
-| 4.1 |the application shall present a button to add interest charges|
-| 4.1.1 |the application shall reject non-numerical inputs for interest charges| 
+| no. | Description | Test Method |
+|-----|-------------|-------------|
+|  1  |the system shall restrict access to authenticated users|Test|
+| 1.1 |the application shall present a login screen to the user|Inspection|
+| 1.1.1 |the login window shall present a red error if the user enters an incorrect login|Inspection|
+| 1.1.2 |the application shall direct user to the next page if login is successful|Inspection|
+| 1.2 | the system shall present a register screen to the user|Inspection|
+| 1.2.1 |the register window shall present a red error if the user enters an invalid email or password|Inspection|
+| 1.2.2 |the register window shall direct user to the next page if registration is successful|Inspection|
+|  2  |the user shall be able to add debts|Demonstration|
+| 2.1 |the application shall present an add debt screen after initial registration|Inspection|
+| 2.1.1 |the system shall present an input area for inital debt entry|Inspection|
+| 2.2.1 |the system shall reject non-numerical inputs for debt totals|Test|
+|  3  |the user shall be able to add payments to debts|Demonstration|
+| 3.1 |the application shall have a button to enable addition of payments|Inspection|
+| 3.1.1 |the application shall present a popup to input amount of payment|Inspection|
+| 3.2.1 |the application shall reject non-numerical inputs for payments|Test|
+|  4  |the user shall be able to adjust debt total based on accrued interest|Demonstration|
+| 4.1 |the application shall present a button to add interest charges|Inspection|
+| 4.1.1 |the application shall reject non-numerical inputs for interest charges|Test| 
