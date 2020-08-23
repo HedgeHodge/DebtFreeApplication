@@ -1,3 +1,14 @@
+* [Background](#background)
+* [Overview](#overview)
+* [Functionality](#functionality)
+* [Deployment](#deployment)
+* [Built With](#built-with)
+* [Authors](#authors)
+* [User Stories](#user-stories)
+* [Use Cases](#use-cases)
+* [UML Diagram](#uml-diagram)
+* [Requirements](#requirements)
+
 # Debt Free Cloud Application
 
 This project is being worked on as part of my final project for the Microsoft-sponsored MSSA Cloud Application Developer cohort hosted by Embry-Riddle Aeronautical University.
