@@ -1,3 +1,9 @@
+# Debt Free Cloud Application
+
+This project is being worked on as part of my final project for the Microsoft-sponsored MSSA Cloud Application Developer cohort hosted by Embry-Riddle Aeronautical University.
+
+## Table of Contents
+
 * [Background](#background)
 * [Overview](#overview)
 * [Functionality](#functionality)
@@ -8,10 +14,6 @@
 * [Use Cases](#use-cases)
 * [UML Diagram](#uml-diagram)
 * [Requirements](#requirements)
-
-# Debt Free Cloud Application
-
-This project is being worked on as part of my final project for the Microsoft-sponsored MSSA Cloud Application Developer cohort hosted by Embry-Riddle Aeronautical University.
 
 ## Background
 
