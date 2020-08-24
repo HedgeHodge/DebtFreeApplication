@@ -14,6 +14,7 @@ This project is being worked on as part of my final project for the Microsoft-sp
 * [Use Cases](#use-cases)
 * [UML Diagram](#uml-diagram)
 * [Requirements](#requirements)
+* [Test Table](#test-table)
 
 ## Background
 
@@ -90,7 +91,7 @@ __Then__ I should have a $0 debt
 
 ## Requirements
 
-| no. | Description | Test Method |
+| **no.** | **Description** | **Test Method** |
 |-----|-------------|-------------|
 |  1  |the system shall restrict access to authenticated users|Test|
 | 1.1 |the application shall present a login screen to the user|Inspection|
@@ -110,3 +111,26 @@ __Then__ I should have a $0 debt
 |  4  |the user shall be able to adjust debt total based on accrued interest|Demonstration|
 | 4.1 |the application shall present a button to add interest charges|Inspection|
 | 4.1.1 |the application shall reject non-numerical inputs for interest charges|Test| 
+
+## Test Table
+
+|  **Test ID** | **Requirement ID** | **Test Procedure** | **Current Status** | **Time Tested** |
+| :---: | :---: | :---: | :---: | :---: |
+|  1 | 1 | 1. Enter non-registered credentials<br>2. Verify that login is not successful | Not Tested |  |
+|  2 | 1.1 | 1. Verify that a login screen is present when the application is loaded | Not Tested |  |
+|  3 | 1.1.1 | 1. Enter incorrect login credentials<br>2. Verify that a red error states that the login credentials are not valid | Not Tested |  |
+|  4 | 1.1.2 | 1. Enter correct login credentials<br>2. Verify that the page redirects to the appropriate next page | Not Tested |  |
+|  5 | 1.2 | 1. Click the button to register for an account<br>2. Verify that the page presents inputs to allow for account registration | Not Tested |  |
+|  6 | 1.2.1 | 1. Click the button to register for an account<br>2. Input an invalid email and password<br>3. Verify that the application shows a red error stating that incorrect inputs were entered | Not Tested |  |
+|  7 | 1.2.2 | 1. Click the button to register for an account<br>2. Input a valid email and password<br>3. Verify that the page redirects to the next page | Not Tested |  |
+|  8 | 2 | 1. Click the button to register for an account<br>2. Input a valid email and password<br>3. Verify that the page redirects to a page where the user is prompted to add their debts | Not Tested |  |
+|  9 | 2.1 | 1. Click the button to register for an account<br>2. Input a valid email and password<br>3. Verify that the page redirects to a page where the user is prompted to add their debts | Not Tested |  |
+|  10 | 2.1.1 | 1. Click the button to register for an account<br>2. Input a valid email and password<br>3. Verify that the page redirects to a page where the user is prompted to add their debts | Not Tested |  |
+|  11 | 2.2.1 | 1. Enter a non-numerical input for the debt total<br>2. Verify that the application shows an error and prompts the user to enter a valid numerical input | Not Tested |  |
+|  12 | 3 | 1. Verify that there is a button or other area to add payments to debts | Not Tested |  |
+|  13 | 3.1 | 1. Verify that there is a button or other area to add payments to debts | Not Tested |  |
+|  14 | 3.1.1 | 1. Click the button to add payment to debt<br>2. Verify that the application presents an input to add the payment | Not Tested |  |
+|  15 | 3.2.1 | 1. Click the button to add payment to debt<br>2. Enter a non-numerical input and click add payment<br>3. Verify that the application shows an error to the user and prompts them to enter a numerical value | Not Tested |  |
+|  16 | 4 | 1. Verify that there is a button to add interest accrued | Not Tested |  |
+|  17 | 4.1 | 1. Verify that there is a button to add interest accrued | Not Tested |  |
+|  18 | 4.1.1 | 1. Click the button to enter interest amount accrued<br>2. Enter a non-numerical value and submit<br>3. Verify that the application presents an error and prompts the user to enter a numerical value | Not Tested |  |
