@@ -15,6 +15,7 @@ This project is being worked on as part of my final project for the Microsoft-sp
 * [UML Diagram](#uml-diagram)
 * [Requirements](#requirements)
 * [Test Table](#test-table)
+* [UI Mockup](#ui-mockup)
 
 ## Background
 
@@ -134,3 +135,9 @@ __Then__ I should have a $0 debt
 |  16 | 4 | 1. Verify that there is a button to add interest accrued | Not Tested |  |
 |  17 | 4.1 | 1. Verify that there is a button to add interest accrued | Not Tested |  |
 |  18 | 4.1.1 | 1. Click the button to enter interest amount accrued<br>2. Enter a non-numerical value and submit<br>3. Verify that the application presents an error and prompts the user to enter a numerical value | Not Tested |  |
+
+## UI Mockup
+
+### Please visit Figma to view prototype with basic functionality
+
+https://www.figma.com/proto/cutZ52xjfDpCep9EMYH2Nt/Untitled?node-id=4%3A51&scaling=scale-down
