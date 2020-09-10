@@ -140,4 +140,4 @@ __Then__ I should have a $0 debt
 
 ### Please visit Figma to view prototype with basic functionality
 
-https://www.figma.com/proto/cutZ52xjfDpCep9EMYH2Nt/Untitled?node-id=4%3A51&scaling=scale-down
+https://www.figma.com/proto/cutZ52xjfDpCep9EMYH2Nt/Debt-Free-Application?node-id=17%3A64&scaling=scale-down
